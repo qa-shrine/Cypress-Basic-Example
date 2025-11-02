@@ -82,7 +82,7 @@ The config uses TypeScript for type-safe test writing.
 
 There are two example tests in `cypress/e2e/`:
 
-- `basic.cy.ts` — simple smoke test that navigates to `https://practicetestautomation.com/` and asserts the page title contains "Example Domain".
+- `basic.cy.ts` — simple smoke test that navigates to `https://practicetestautomation.com/` and asserts the page title contains "Practice Test Automation".
 - `login.cy.ts` — a small illustrative login flow that fills username/password inputs and verifies a welcome element. It uses `id` selectors as `data-testid` are not available but would recommended these practice for test stability.
 
 These tests are intentionally minimal. Use them as templates when adding real tests for your application.
