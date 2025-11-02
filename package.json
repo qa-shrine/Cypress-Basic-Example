@@ -1,0 +1,21 @@
+{
+  "name": "cypress-basic-example",
+  "version": "1.0.0",
+  "description": "A minimal Cypress Test example repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "typescript": "^5.9.3"
+  }
+}
