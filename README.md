@@ -1,6 +1,6 @@
 # Cypress Basic Example
 
-A minimal Cypress Test example repository showing a simple test structure, Cypress config, and npm scripts to run tests and view reports. This repo is intended as a learning starting point or quick template for writing end-to-end tests with Cypress.
+A minimal Cypress Test example repository showing a simple test structure, Cypress config, and npm scripts to run tests. This repo is intended as a learning starting point or quick template for writing end-to-end tests with Cypress.
 
 ## Table of contents
 
@@ -22,7 +22,7 @@ This repository demonstrates how to set up Cypress with a small number of exampl
 - A `cypress.config.ts` with baseUrl configuration.
 - Example tests in the `cypress/e2e/` directory.
 - Support files for custom commands and configurations.
-- Useful npm scripts for running tests and viewing reports.
+- Useful npm scripts for running tests.
 
 
 ## Prerequisites
@@ -52,7 +52,6 @@ Available npm scripts (defined in `package.json`):
 
 - `npm test` — run Cypress tests in headless mode.
 - `npm run test:headed` — open Cypress Test Runner for interactive testing.
-- `npm run test:report` — run tests and generate an HTML report.
 
 Examples:
 
@@ -67,13 +66,6 @@ Run tests with the Cypress Test Runner (interactive):
 ```bash
 npm run test:headed
 ```
-
-After a run you can view the HTML report:
-
-```bash
-npm run test:report
-```
-
 
 ## Cypress configuration highlights
 
